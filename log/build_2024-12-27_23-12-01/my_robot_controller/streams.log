@@ -1,0 +1,22 @@
+[0.835s] Invoking command in '/home/robot/Desktop/ros2_ws/build/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/Desktop/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Desktop/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/Desktop/ros2_ws/build/my_robot_controller/build --no-deps symlink_data --force
+[1.185s] running develop
+[1.375s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[1.375s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.416s] running egg_info
+[1.440s] writing my_robot_controller.egg-info/PKG-INFO
+[1.441s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[1.441s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[1.441s] writing requirements to my_robot_controller.egg-info/requires.txt
+[1.441s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[1.486s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.487s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.510s] running build_ext
+[1.510s] Creating /home/robot/Desktop/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my-robot-controller.egg-link (link to .)
+[1.511s] Installing draw_circle script to /home/robot/Desktop/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.511s] Installing test_node script to /home/robot/Desktop/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.512s] 
+[1.512s] Installed /home/robot/Desktop/ros2_ws/build/my_robot_controller
+[1.512s] running symlink_data
+[1.512s] symbolically linking /home/robot/Desktop/ros2_ws/build/my_robot_controller/resource/my_robot_controller -> /home/robot/Desktop/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.512s] symbolically linking /home/robot/Desktop/ros2_ws/build/my_robot_controller/package.xml -> /home/robot/Desktop/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[1.543s] Invoked command in '/home/robot/Desktop/ros2_ws/build/my_robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/Desktop/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Desktop/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/Desktop/ros2_ws/build/my_robot_controller/build --no-deps symlink_data --force
